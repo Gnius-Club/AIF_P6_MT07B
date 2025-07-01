@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P6-TM07B</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 7B 6to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje</strong>
+                                    <ul>
+                                        <li>Que los estudiantes implementen y prueben sus interacciones "sociales" en el XGO. Que observen y discutan la tendencia humana a antropomorfizar el comportamiento del robot, y reflexionen sobre la diferencia entre una reacción programada y una emoción genuina.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase</strong>
+                                    <ul>
+                                        <li>⚡Bienvenida y Conexión</li>
+                                        <li>⚡IMPLEMENTACIÓN DEL CÓDIGO (Ejecución)</li>
+                                        <li>⚡PRUEBAS, OBSERVACIÓN Y DEBUGGING COLABORATIVO</li>
+                                        <li>⚡GNIUS STORM Y REINICIO DEL CICLO</li>
+                                    </ul>
+                                    <strong>Entregable Clave</strong>
+                                    <ul>
+                                        <li>Robot XGO demostrando una interacción 'social' y una reflexión del equipo sobre el antropomorfismo y el significado de la reacción del robot.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Acceso al entorno de programación Python en las computadoras.</li>
+                                        <li>Robots XGO V2 (1 por cada 4 estudiantes), cargados y listos para conectar.</li>
+                                        <li>Las "Playlist de Interacciones" creadas por cada equipo en la Sesión 7A.</li>
+                                        <li>Teléfono o revista con una foto clara de una cara.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Chat de Agente Gnius (Xolo) activo para consultas de debugging.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna)</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet y que el entorno Python funcione.</li>
+                                                <li>Asegurar que los robots XGO V2 estén completamente cargados.</li>
+                                                <li>Tener la presentación de diapositivas lista.</li>
+                                                <li>Probar el chat Agente Gnius (Xolo) para consultas.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad práctica.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Bienvenida y Conexión ⏰ 2 minutos</h2>
+                <p><strong>Propósito:</strong> Recordar el trabajo previo, establecer el objetivo del día y preparar el entorno de trabajo para la sesión práctica.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Conexión con Sesión A ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) Da la bienvenida, recuérdales el trabajo de diseño de la Sesión A y crea expectación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola de nuevo, sociólogos de IA! ¡Bienvenidos a la Sesión B! En la sesión pasada diseñaron unas "Playlist de Interacciones" muy creativas. Hoy es el día de la verdad social. Vamos a ver si sus robots son tan 'amigables' como los programaron. ¿Listos para conocerlos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Guía de Conexión y Preparación ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 3) Guía a los equipos para que se preparen técnicamente para la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Equipos, es hora de la verdad social. Conecten sus robots y carguen el primer código de su 'Playlist de Interacciones'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: IMPLEMENTACIÓN DEL CÓDIGO (Ejecución) ⏰ 13 minutos</h2>
+                <p><strong>Propósito</strong> Poner en práctica el plan, ejecutando las interacciones sociales y observando las "emociones" que evocan.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Prueba de la Interacción 1 ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) Guía a los equipos para que ejecuten su primera reacción social y observen el resultado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora que están listos, vamos con su primera interacción. Carguen el código del "Saludo Emocionado" o la primera reacción de su lista. Un miembro del equipo se coloca frente al robot. Observen la reacción. ¿Qué "emoción" parece transmitir?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Prueba de la Interacción 2 ⏰ 7 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) Guía a los equipos para que prueben su segunda reacción y comparen los "sentimientos" que evoca cada una.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Perfecto. Ahora, roten al programador y repitan el proceso con la segunda secuencia de su playlist. Comparen los "sentimientos" que evoca cada reacción. ¿Cuál parece más 'feliz'? ¿Cuál más 'tímida'? ¿Por qué?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: PRUEBAS, OBSERVACIÓN Y DEBUGGING COLABORATIVO ⏰ 15 minutos</h2>
+                <p><strong>Propósito</strong> Enseñar a los estudiantes a depurar problemas de percepción visual y de lógica de repetición, y a ejecutar el experimento clave sobre antropomorfismo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ciclo de Depuración - El Robot no "Ve" ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Guía a los equipos a través de la solución de problemas cuando la detección de caras falla.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant"><strong>Problema:</strong> "El robot no reacciona a mi cara."</p>
+                                <p class="dialogue assistant"><strong>Análisis Propio:</strong> "Quizás la iluminación no es buena o estoy muy lejos."</p>
+                                <p class="dialogue assistant"><strong>Consulta a Xolo:</strong> "Xolo, el XGO no nos ve. Este es el código: [pegan el código]. ¿Alguna idea?".</p>
+                                <p class="dialogue assistant"><strong>Sugerencia de Xolo:</strong> "¡Asegúrense de que la AI-Lens esté inicializada y en modo `ai.Face`! Revisen la conexión del cable de la lente. También, intenten en un lugar con luz frontal a su cara, no a contraluz. La IA necesita ver los rasgos claramente."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ciclo de Depuración - Reacción en Bucle ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) Guía a los estudiantes a través del problema de una reacción que se repite sin cesar y cómo controlarla.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant"><strong>Problema:</strong> "La reacción se repite sin parar y es molesta."</p>
+                                <p class="dialogue assistant"><strong>Análisis Propio:</strong> "Falta una pausa para que no reaccione a cada fotograma."</p>
+                                <p class="dialogue assistant"><strong>Consulta a Xolo:</strong> "Xolo, ¿cómo hacemos que el saludo solo ocurra una vez?".</p>
+                                <p class="dialogue assistant"><strong>Sugerencia de Xolo:</strong> "¡Buena observación! Dentro del `if`, después de la secuencia de acciones, añadan un `time.sleep(5)` o un número grande. Así, el robot hará la acción y luego esperará 5 segundos antes de volver a comprobar si hay una cara."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Prueba del Desafío de Antropomorfismo ⏰ 5 minutes</h3>
+                            <p>(Proyectar Diapositiva 8) Guía a los equipos para realizar el experimento de mostrar una foto al robot y observar el resultado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, vamos con el desafío más interesante de su playlist. Muestren al robot una foto clara de una cara en un teléfono o una revista. Observación Clave: ¿El robot reacciona? ¿Lo hace de la misma manera que a una cara real? Anoten sus observaciones para la discusión final.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: GNIUS STORM Y REINICIO DEL CICLO ⏰ 10 minutos</h2>
+                <p><strong>Propósito</strong> Celebrar los logros, facilitar una discusión profunda sobre antropomorfismo y fomentar la creatividad continua.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM - El Gran Debate ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositivas 9 y 10) Facilita un espacio para que los equipos muestren sus robots y modera la discusión filosófica central de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo de Gnius STORM! Cada equipo, muestre la reacción "social" de su robot que más les gustó. Y ahora, prepárense para el gran debate. Cuando el robot movió la cola, ¿qué sintieron ustedes? ¿Creen que el robot estaba 'feliz' de verlos? ¿Qué pasó cuando le mostraron la foto? ¿El robot 'sabe' la diferencia entre una persona real y una foto? Y la pregunta más importante: ¿quién le da el significado de 'feliz' a la acción de mover la cola? ¿El robot o nosotros?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Reinicio del Ciclo ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 11) Lanza un mini-desafío creativo para aplicar lo aprendido.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Han explorado la HRI y el antropomorfismo. Ahora, con el tiempo que queda, diseñen y prueben una nueva reacción. ¿Podrían programar una reacción 'triste' o 'sorprendida'? ¡Sigan experimentando con las 'emociones' de su robot! Recuerden rotar al programador.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
